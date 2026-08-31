@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Environment variables and API keys — NEVER commit these
+.env
+*.env
+
+# Downloaded benchmark data — large, re-downloadable from HuggingFace
+data/
+
+# ChromaDB vector index — rebuilds from data
+index/
+
+# Experiment results — commit selectively, not automatically
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# VS Code settings — optional, keep if you want shared settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
